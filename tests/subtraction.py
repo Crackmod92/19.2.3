@@ -6,7 +6,7 @@ class TestCalc:
    def setup(self):
        self.calc = Calculator
 
-   def test_subtraction_calculate_correctly(self):
+   def test_subtraction_correctly(self):
        assert self.calc.subtraction(self, 2, 2) == 0
 
    def test_subtraction_failed(self):
